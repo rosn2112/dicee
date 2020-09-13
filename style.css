@@ -1,0 +1,100 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+/* alert("hello");
+var randomNumber1;
+var randomNumber2;
+var change1;
+var change2;
+
+randomNumber1 = Math.floor(Math.random() * 6) + 1;
+randomNumber2 = Math.floor(Math.random() * 6) + 1;
+
+var imge1 = document.querySelector(".container .dice img1");
+if(randomNumber1 == 1){
+    change1 = imge1.setAttribute("src", "./images/dice1.png")
+}
+else if (randomNumber1 == 2){
+  change1 = imge1.setAttribute("src", "./images/dice2.png");
+}
+else if (randomNumber1 == 3){
+  change1 = imge1.setAttribute("src", "./images/dice3.png");
+}
+else if (randomNumber1 == 4){
+  change1 = imge1.setAttribute("src", "./images/dice4.png");
+}
+else if (randomNumber1 == 5){
+  change1 = imge1.setAttribute("src", "./images/dice5.png");
+}
+else (randomNumber1 == 6){
+  change1 = imge1.setAttribute("src", "./images/dice6.png");
+}
+var imge2 = document.querySelector(".container .dice img2");
+
+if(randomNumber2 == 1){
+    change2 = imge2.setAttribute("src", "./images/dice1.png")
+}
+else if (randomNumber2 == 2){
+  change2 = imge2.setAttribute("src", "./images/dice2.png");
+}
+else if (randomNumber2 == 3){
+  change2 = imge2.setAttribute("src", "./images/dice3.png");
+}
+else if (randomNumber2 == 4){
+  change2 = imge2.setAttribute("src", "./images/dice4.png");
+}
+else if (randomNumber2 == 5){
+  change2 = imge2.setAttribute("src", "./images/dice5.png");
+}
+else (randomNumber2 == 6){
+  change2 = imge2.setAttribute("src", "./images/dice6.png");
+}
+
+if(randomNumber1 > randomNumber2){
+    document.querySelector("h1").innerHTML = "🚩 Play 1 Wins!";
+}
+else if (randomNumber1 < randomNumber2){
+    document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
+}
+else{
+    document.querySelector("h1").innerHTML = "Draw!";
+}
+ */
